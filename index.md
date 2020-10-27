@@ -5,15 +5,14 @@
 ## Contact Information
 
 E-mail: drewweber@outlook.com  
-Phone: 204-230-1910  
 
 ## Education
 
-University of Manitoba 
-| 2016 - Present | Bachelors of Computer Science - In Progress |
+Bachelors of Computer Science - In Progress   
+| 2016 - Present |University of Manitoba|
 
-Dakota Collegiate High school
-| 2012 - 2016 | High School Diploma |
+High School Diploma   
+| 2012 - 2016 |Dakota Collegiate High school |
 
 ## Work History
 
@@ -24,6 +23,13 @@ Dakota Collegiate High school
  
  - Worked in a Team Setting to communicate progress,needs, and project scope with developers as well as other internal project shareholders.
  
- - Used Rest API to Dynamically generate the webpages content from Microsoft SharePoint 
+ - Used Rest API to Dynamically generate the webpages content from Microsoft SharePoint   
 
 
+|  May 2018 - September 2018 | Service Desk Technician - Manitoba Liqour & Lotteries|
+
+ - Provided technical and non technical support to internal end users and external customers.
+ 
+ - Followed Incident Managment Processes to ensure minimal impact on buisness activity of the organization and end users.
+ 
+ - Acted as a single point of contact for users and user issues, recieved automatic alert notifications, and provided a initial triage of service issues and escalated as appropriate. 
