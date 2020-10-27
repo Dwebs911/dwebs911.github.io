@@ -2,34 +2,24 @@
 
 ---
 
-## Contact Information
+Email: drewweber@outlook.com
 
-E-mail: drewweber@outlook.com  
+##Education
 
-## Education
+### Bachelors of Computer Science - Currently Enrolled
+2016 - Present / University of Manitoba
 
-### Bachelors of Computer Science - In Progress   
-2016 - Present |University of Manitoba  
-
-### High School Diploma   
-2012 - 2016 | Dakota Collegiate High school  
+### Highschool Diploma
+2012 - 2016 / Dakota Collegiate
 
 ## Work History
 
- 
- ### August 2020 - September 2020 / Web Developer - Government of Manitoba
+### August 2020 - September 2020 / Web Developer - Goverment of Manitoba
+- Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
+- Worked in a team setting to communicate with the project progress, needs, and scope with other developers and project shareholders.
+- Used the REST API to dynamically generate webpage content from Microsoft Sharepoint.
 
- - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
- 
- - Worked in a Team Setting to communicate progress,needs, and project scope with developers as well as other internal project shareholders.
- 
- - Used Rest API to Dynamically generate the webpages content from Microsoft SharePoint  
-
- ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
-
- - Provided technical and non technical support to internal end users and external customers.
- 
- - Followed Incident Management Processes to ensure minimal impact on business activity of the organization and end users.
- 
- - Acted as a single point of contact for users and user issues, received automatic alert notifications, and provided a initial triage of service issues and escalated as appropriate.
-
+### May 2018 - September 2018 / Service Desk Technician - Manitoba Liqour & Lotteries
+- Provided technical and non-technical support to internal and end users and external customers.
+- Followed Incident Managment Processes to ensure minimal impact on the buisness activity of the organization and end users.
+-Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
