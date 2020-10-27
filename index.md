@@ -24,4 +24,4 @@ Email: drewweber@outlook.com
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liqour & Lotteries
 - Provided technical and non-technical support to internal and end users and external customers.
 - Followed Incident Managment Processes to ensure minimal impact on the buisness activity of the organization and end users.
--Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
+- Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
