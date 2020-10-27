@@ -4,8 +4,8 @@
 
 ## Contact Information
 
-E-mail: drewweber@outlook.com
-Phone: 204-230-1910
+E-mail: drewweber@outlook.com  
+Phone: 204-230-1910  
 
 ## Education
 
