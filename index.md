@@ -2,6 +2,8 @@
 
 ---
 
+## Contact Information
+
 Email: drewweber@outlook.com
 
 ## Education
