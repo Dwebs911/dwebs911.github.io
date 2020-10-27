@@ -23,8 +23,7 @@ E-mail: drewweber@outlook.com
  
  - Worked in a Team Setting to communicate progress,needs, and project scope with developers as well as other internal project shareholders.
  
- - Used Rest API to Dynamically generate the webpages content from Microsoft SharePoint   
-
+ - Used Rest API to Dynamically generate the webpages content from Microsoft SharePoint  
 
  ### May 2018 - September 2018 | Service Desk Technician - Manitoba Liquor & Lotteries  
 
