@@ -18,7 +18,7 @@ Email: drewweber@outlook.com
 
 ### August 2020 - September 2020 / Web Developer - Goverment of Manitoba
 - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
-- Worked in a team setting to communicate with the project progress, needs, and scope with other developers and project shareholders.
+- Worked in a team setting to communicate the project progress, needs, and scope with other developers and project shareholders.
 - Used the REST API to dynamically generate webpage content from Microsoft Sharepoint.
 
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liqour & Lotteries
