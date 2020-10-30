@@ -27,22 +27,23 @@ Email: drewweber@outlook.com
 - Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
 
 ### November 2019 - Present / Code Mentor - Code Cobras
-- Created draft curriculums for online computer science courses
+- Created a curriculum draft for online computer science courses
 - Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
-- Provided lessions on basic computerscience concepts such as conditionals, algorithims, and variables to various age groups.
+- Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
 
 ## Skills
-- Time Managment 
+- Time Management 
 - Understanding of HTML,CSS, and JavaScript
-- Working knolodge of C++, C, Java, and Processing
+- Working knowledge of C++, C, Java, and Processing
 - Project Coordination
 - Customer Service
 
-## Softwear
+## Software
 - Microsoft Office Suite
 - Intellij Ide's
 - Visual Studio/ Visual Studio Code
-- DreamWeaver
+- Adobe Dream-Weaver
 - VIM
+
 
 
