@@ -14,6 +14,8 @@ Email: drewweber@outlook.com
 ### High-school Diploma
 2012 - 2016 / Dakota Collegiate
 
+---
+
 ## Work History
 
 ### August 2020 - September 2020 / Web Developer - Government of Manitoba
@@ -30,6 +32,8 @@ Email: drewweber@outlook.com
 - Created a curriculum draft for online computer science courses
 - Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
 - Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
+
+---
 
 ## Skills
 - Time Management 
