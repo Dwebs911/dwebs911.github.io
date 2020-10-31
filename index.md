@@ -42,6 +42,8 @@ Email: drewweber@outlook.com
 - Project Coordination
 - Customer Service
 
+---
+
 ## Software
 - Microsoft Office Suite
 - Intellij IDE's
