@@ -36,4 +36,22 @@ In this step we will host the current iteration of the resume. To start off you 
 #### Step Five: Updating
 Now that we have the resume formatted and hosted we want to be able to make it simple to update. To do so I recommend hosting .md files named Education,Experience,Skills,etc. These files should contain a template of each section that you can fill out and paste into the index file to add to those sections of the resume. In essence just like Etter's final step we are trying to make it as easy as possible to contribute to the content.
 
+## Resources:
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
+- [GitHub Pages Guide](https://guides.github.com/features/pages/)
+- [Jekyll Tutorial](https://jekyllrb.com/tutorials/home/)
+- [Modern Technical Writing by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) 
+
+## Acknowledgments 
+Template: https://github.com/pages-themes/midnight
+
+## Frequently Asked Questions:
+1)  Q: Why use markdown over word formatting?
+A: Because markdown allows us to convert the writing to a webpage as well as having a more universal syntax as many applications support versions of markdown.
+
+2)  Q: Why is the ReadMe showing as my webpage?
+A: This is a slight bug with GitHub Pages, simply remove the ReadMe from the repository and re add it, this should allow for GitHub Pages to use the index.md file as the webpage content.
+
+3) Q: How do I use a custom domain?
+A: To use a custom domain first purchase a domain from a provider such as https://www.name.com/ or https://www.namecheap.com/. Then follow the [official GitHub Pages guide](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-custom-domains-and-github-pages) 
 
