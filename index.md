@@ -6,6 +6,8 @@
 
 Email: drewweber@outlook.com
 
+---
+
 ## Education
 
 ### Bachelors of Computer Science - Currently Enrolled
