@@ -1,7 +1,7 @@
 # How to Host a Markdown Resume on GitHub
 
 ----
-
+The below image is an example of diffrence the markdown resume and the templated webpage:
 ![](MdToResume.gif)
 
 ## Why are we here?
