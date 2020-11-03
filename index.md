@@ -26,8 +26,8 @@ Email: drewweber@outlook.com
 - Used the REST API to dynamically generate webpage content from Microsoft SharePoint.
 
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
-- Provided technical and non-technical support to internal and end users and external customers.
-- Followed Incident Management Processes to ensure minimal impact on the business activity of the organization and end users.
+- Provided technical and non-technical support to internal and end-users and external customers.
+- Followed Incident Management Processes to ensure minimal impact on the business activity of the organization and end-users.
 - Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
 
 ### November 2019 - Present / Code Mentor - Code Cobras
