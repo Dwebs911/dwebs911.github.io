@@ -4,7 +4,9 @@
 
 ## Contact Information
 
-Email: drewweber@outlook.com
+Email: drewweber@outlook.com  
+
+Phone: 204-230-1910
 
 ---
 
@@ -34,6 +36,10 @@ Email: drewweber@outlook.com
 - Created a curriculum draft for online computer science courses
 - Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
 - Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
+
+---
+
+## Volunteering history
 
 ### July 2019 - June 2020 / President - University Manitoba Anime Club
 - Responsible for hiring and leading the executive team.
