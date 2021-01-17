@@ -35,6 +35,17 @@ Email: drewweber@outlook.com
 - Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
 - Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
 
+### July 2019 - June 2020 / President - University Manitoba Anime Club
+- Responsible for hiring and leading the executive team.
+- Creating long term strategies to ensure club growth and effectiveness.
+- Leads administrative projects. 
+
+### December 2018 - July 2019 /  Events Coordinator - University of Manitoba Anime Club
+- Planned and executed various social events.
+- Reported to executive staff and delegated roles and responsibilities to events staff.
+- Communicated with external organizations for event sponsorship.
+
+
 ---
 
 ## Skills
