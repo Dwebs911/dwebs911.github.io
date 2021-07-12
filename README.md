@@ -12,6 +12,7 @@ This read-me will go into detail on how to learn and use the resources required 
 
 This guide will require you to have some specific things listed below:
 
+
 - Resume formatted in markdown
 - GitHub Account 
 - Web browser
