@@ -16,9 +16,17 @@ Email: drewweber@outlook.com
 ### High-school Diploma
 2012 - 2016 / Dakota Collegiate
 
+### Certificate of Completion Accessible Doccuments: Word, PowerPoint, & Acrobat
+February 2022 - WebAim
+
 ---
 
 ## Work History
+
+### June 2021 - April 2021 / Research Assistant - Government of Manitoba Mabitoba Accessibility Office
+- Created MAO Event Transcripts & Editing Related Videos
+- Used web technologies such as HTML, CSS, and JavaScript to create, update, and maintained MAO Webpages.
+- Analysis of the MAO website and Design reccomendations.
 
 ### August 2020 - September 2020 / Web Developer - Government of Manitoba
 - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
@@ -49,25 +57,26 @@ Email: drewweber@outlook.com
 - Reported to executive staff and delegated roles and responsibilities to events staff.
 - Communicated with external organizations for event sponsorship.
 
-
 ---
 
 ## Skills
 - Time Management 
 - Understanding of HTML,CSS, and JavaScript
-- Working knowledge of C++, C, Java, and Processing
+- Working knowledge of C++, C, Java, and Processing, SQL
 - Project Coordination
 - Customer Service
+- Verbal & Written Communication
 
 ---
 
-## Software
+## Software Experince
 - Microsoft Office Suite
 - Intellij IDE's
 - Visual Studio/ Visual Studio Code
 - Adobe Dream-Weaver
 - VIM
 - Microsoft Sharepoint
+- Git
 
 
 
