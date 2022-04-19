@@ -10,7 +10,7 @@ Email: drewweber@outlook.com
 
 ## Education
 
-### Bachelors of Computer Science - Currently Enrolled
+### Bachelor of Computer Science - Currently Enrolled
 2016 - 2021 / University of Manitoba
 2021 - Present / University Of Winnipeg
 
