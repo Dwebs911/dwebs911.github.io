@@ -34,15 +34,15 @@ February 2022 / WebAim
 - Worked in a team setting to communicate the project progress, needs, and scope with other developers and project shareholders.
 - Used the REST API to dynamically generate webpage content from Microsoft SharePoint.
 
-### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
-- Provided technical and non-technical support to internal and end-users and external customers.
-- Followed Incident Management Processes to ensure minimal impact on the business activity of the organization and end-users.
-- Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
-
 ### November 2019 - Present / Code Mentor - Code Cobras
 - Created a curriculum draft for online computer science courses
 - Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
 - Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
+
+### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
+- Provided technical and non-technical support to internal and end-users and external customers.
+- Followed Incident Management Processes to ensure minimal impact on the business activity of the organization and end-users.
+- Acted as a single point of contact for: users, user issues, and automatic alert notifications. As well as providing an initial triage of service issues and escalating as appropriate.
 
 ---
 
