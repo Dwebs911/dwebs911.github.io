@@ -78,6 +78,8 @@ February 2022 / WebAim
 - Intellij IDE's
 - Visual Studio/ Visual Studio Code
 - Adobe Dream-Weaver
+- Adobe Photoshop
+- Adobe Premiere Pro
 - VIM
 - Microsoft Sharepoint
 - Git
