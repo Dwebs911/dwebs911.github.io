@@ -4,7 +4,7 @@
 
 ## Contact Information
 
-Email: business.drewweber@outlook.com  
+Email: [business.drewweber@outlook.com] (mailto:business.drewweber@outlook.com)  
 
 ---
 
