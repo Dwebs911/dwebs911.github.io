@@ -12,8 +12,7 @@ Email: <business.drewweber@outlook.com>
 ## Education
 
 ### BSc in Applied Computer Science- Currently Enrolled
-- 2016 - 2021 / University of Manitoba  
-- 2021 - Present / University Of Winnipeg  
+- In Progress / University Of Winnipeg  
 
 ### High-school Diploma
 - 2012 - 2016 / Dakota Collegiate
