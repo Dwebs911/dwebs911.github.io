@@ -4,7 +4,7 @@
 
 ## Contact Information
 
-Email: drewweber@outlook.com  
+Email: business.drewweber@outlook.com  
 
 ---
 
@@ -17,30 +17,30 @@ Email: drewweber@outlook.com
 ### High-school Diploma
 2012 - 2016 / Dakota Collegiate
 
-### Certificate of Completion - Accessible Doccuments: Word, PowerPoint, & Acrobat
-February 2022 / WebAim
-
 ### Web Accessibility Training
 October 2021 / WebAim
+
+### Certificate of Completion - Accessible Doccuments: Word, PowerPoint, & Acrobat
+February 2022 / WebAim
 
 ---
 
 ## Work History
 
-### June 2021 - Present / Research Assistant - Government of Manitoba - Mabitoba Accessibility Office
-- Created MAO Event Transcripts & Editing Related Videos
-- Used web technologies such as HTML, CSS, and JavaScript to create, update, and maintained MAO Webpages.
-- Analysis of the MAO website and Design reccomendations.
+### May 2021 - Present / Research Assistant - Government of Manitoba - Mabitoba Accessibility Office
+- Created MAO Event Transcripts & Editing Related Videos using the Adobe suite.
+- Used web technologies such as HTML, CSS, and JavaScript to create, update, and maintain MAO Webpages.
+- Analysis of the original MAO website, and submition of design reccomendations with focus on being in line with The Accessibility for Manitobans Act's Accessibility Standard for Information and Communication. 
 
 ### August 2020 - September 2020 / Web Developer - Government of Manitoba
 - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
 - Worked in a team setting to communicate the project progress, needs, and scope with other developers and project shareholders.
 - Used the REST API to dynamically generate webpage content from Microsoft SharePoint.
 
-### November 2019 - Present / Code Mentor - Code Cobras
+### November 2019 - September 2021 / Code Mentor - Code Cobras
 - Created a curriculum draft for online computer science courses
-- Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, and Python. 
-- Provided lessons on basic computer science concepts such as conditionals, algorithms, and variables to various age groups.
+- Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, HTML, CSS, and Python. 
+- Provided lessons on basic computer science concepts such as conditionals, algorithms, iteration, and variables to various age groups.
 
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
 - Provided technical and non-technical support to internal and end-users and external customers.
