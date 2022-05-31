@@ -29,8 +29,8 @@ Email: <business.drewweber@outlook.com>
 
 ### May 2021 - Present / Research Assistant - Government of Manitoba - Mabitoba Accessibility Office
 - Used web technologies such as HTML, CSS, and JavaScript to create, update, and maintain MAO Webpages.
-- Analysis and Submition of design reccomendations with a focus on compliance with The Accessibility for Manitobans Act's Standard for Information and Communication.
-- Created Mabitoba Accessibility Office event transcripts,and edited webinar videos using the Adobe suite.
+- Analysis and Submition of design reccomendations with a focus on accessibility and compliance with the Accessibility Standard for Information and Communication 
+- Created Mabitoba Accessibility Office event transcripts, and edited webinar videos using the Adobe suite.
 
 ### August 2020 - September 2020 / Web Developer - Government of Manitoba
 - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
