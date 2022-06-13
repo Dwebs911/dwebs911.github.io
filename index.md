@@ -74,6 +74,7 @@ Email: <business.drewweber@outlook.com>
 - Verbal & Written Communication
 - Multimedia Editing with the Adobe Creative Cloud
 - Public Communications
+
 ---
 
 ## Software Experince
