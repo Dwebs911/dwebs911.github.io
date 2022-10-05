@@ -27,7 +27,7 @@ Email: <business.drewweber@outlook.com>
 
 ## Work History
 
-### May 2021 - Present / Research Assistant - Government of Manitoba - Mabitoba Accessibility Office
+### May 2021 - Present / Research Assistant/Web Developer - Government of Manitoba - Mabitoba Accessibility Office
 - Used web technologies such as HTML, CSS, and JavaScript to create, update, and maintain MAO Webpages.
 - Analysis and Submition of design reccomendations with a focus on accessibility and compliance with the Accessibility Standard for Information and Communication 
 - Created Mabitoba Accessibility Office event transcripts, and edited webinar videos using the Adobe suite.
@@ -67,14 +67,14 @@ Email: <business.drewweber@outlook.com>
 
 ## Skills
 - Time Management 
-- Understanding of HTML,CSS, and JavaScript
+- Understanding of HTML,CSS,JavaScript, and WAI-ARIA
 - Working knowledge of C++, C, Java,Processing, SQL.
 - Project Coordination
 - Customer Service
 - Verbal & Written Communication
 - Multimedia Editing with the Adobe Creative Cloud
 - Public Communications
-
+- 
 ---
 
 ## Software Experince
