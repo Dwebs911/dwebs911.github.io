@@ -115,32 +115,14 @@ Email: <business.drewweber@outlook.com>
 
 
 ### Personal Skills
-
 - Strong leader (experienced in coaching, guiding, & liaising with internal & external stakeholders)
 - Excellent communication
-- Interpersonal, & listening skills, 
+- Interpersonal, & listening skills 
 - Organizational & time management skills
 - Creative problem solver
 - Confident public speaker
-- Pro-active, independent, but also team player.
+- Pro-active, independent, but also team player
 
 ---
-
-## Software Experince
-- Intellij IDE's
-- Visual Studio/Visual Studio Code
-- Adobe Dream-Weaver
-- VIM
-- Git
-- Notepad ++
-- Adobe Photoshop
-- Adobe Premiere Pro
-- Zoom
-- Microsoft Access
-- Microsoft Sharepoint
-- Microsoft Teams
-- Microsoft Office Suite
-- Windows, Linux, and Mac OS
-
 
 
