@@ -30,11 +30,11 @@ Email: <business.drewweber@outlook.com>
 ## Work History
 
 ### May 2021 - Present / Research Assistant/Web Developer - Government of Manitoba - Manitoba Accessibility Office
-- Responsible for the review, analysis, & organization of electronic departmental folders & documents created & routinely accessed by Manitoba government employees
-- Responsible for reviewing & reporting to MAO senior staff & Executive Director on Canadian provincial webpage structures, layouts, & features to ascertain industry standards & best practices
-- Analysis & submission of design recommendations for the MAO’s first-ever website refresh, which included a primary focus on accessibility & compliance with WCAG 2.1AA & Manitoba’s Accessibility Standard for Information & Communication
 - Responsible for co-creating the main webpage outline document for the MAO’s website refresh, which featured a 75-page document detailing all aspects of AccessibilityMB.ca, including webpages, subpages, text, images, hyperlinks, videos, widgets, etc.
+- Analysis & submission of design recommendations for the MAO’s first-ever website refresh, which included a primary focus on accessibility & compliance with WCAG 2.1AA & Manitoba’s Accessibility Standard for Information & Communication
+- Responsible for reviewing & reporting to MAO senior staff & Executive Director on Canadian provincial webpage structures, layouts, & features to ascertain industry standards & best practices
 - Uses web technologies, such as HTML, CSS, & JavaScript to create, update, & maintain AccessibilityMB.ca & all related webpages & content, including text, resources, documents, & inclusion of YouTube content
+- Responsible for the review, analysis, & organization of electronic departmental folders & documents created & routinely accessed by Manitoba government employees
 - Responsible for designing, creating, & featuring MAO event resources, including webinar transcripts & videos, using AdobeSuite
 - Responsible for conducting a provincial review of Manitoba accessibility experts in the private & public sectors, including post-secondary institutions such as the University of Winnipeg & Manitoba
 - Leads the accessibility revitalization of digital MAO content, completing comprehensive accessibility checks to ensure all materials can be accessed in multiple formats (Word, Excel, PDF, etc.)
@@ -55,7 +55,7 @@ Email: <business.drewweber@outlook.com>
 ### August 2020 - September 2020 / Web Developer - Government of Manitoba
 - Used web technologies such as HTML, CSS, and JavaScript to create a dynamic software catalog.
 - Worked in a team setting to communicate the project progress, needs, and scope with other developers and project shareholders.
-- Used the REST API to dynamically generate webpage content from Microsoft SharePoint.
+- Used REST API to dynamically generate webpage content from Microsoft SharePoint.
 
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
 - Responsible for providing technical & non-technical support to Manitoba Liquor & Lotteries end users & external customers by following the Incident Management process, ensuring minimal impact on the business activity of the organization & the user. 
@@ -115,6 +115,7 @@ Email: <business.drewweber@outlook.com>
 - Mongo DB
 - Postman
 - Unity
+- UI Design
 
 
 ### Personal Skills
