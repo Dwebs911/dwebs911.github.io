@@ -29,7 +29,7 @@ Email: <business.drewweber@outlook.com>
 
 ## Work History
 
-### May 2021 - Present / Research Assistant/Web Developer - Government of Manitoba - Mabitoba Accessibility Office
+### May 2021 - Present / Research Assistant/Web Developer - Government of Manitoba - Manitoba Accessibility Office
 - Responsible for the review, analysis, & organization of electronic departmental folders & documents created & routinely accessed by Manitoba government employees
 - Responsible for reviewing & reporting to MAO senior staff & Executive Director on Canadian provincial webpage structures, layouts, & features to ascertain industry standards & best practices
 - Analysis & submission of design recommendations for the MAO’s first-ever website refresh, which included a primary focus on accessibility & compliance with WCAG 2.1AA & Manitoba’s Accessibility Standard for Information & Communication
