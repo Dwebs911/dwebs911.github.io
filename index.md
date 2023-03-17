@@ -96,7 +96,7 @@ Email: <business.drewweber@outlook.com>
 - Operating Systems (Windows, Linux, & Mac OS)
 - Design (AdobeSuite, Canva, Piktochart)
 - Multimedia Editing (Adobe Creative Cloud)
-- Understanding of HTML, CSS, JavaScript, WAI-ARIA, C++, C, Java, Processing, SQL, Python, & x86 Assembly
+- Understanding of HTML, CSS, JavaScript, NODE JS, WAI-ARIA, C++, C, Java, Processing, SQL, Python, & x86 Assembly
 
 ### Software Skills
 - IntelliJ IDEs
@@ -112,6 +112,9 @@ Email: <business.drewweber@outlook.com>
 - Microsoft Office Suite
 - Microsoft Teams
 - Zoom
+- Mongo DB
+- Postman
+- Unity
 
 
 ### Personal Skills
