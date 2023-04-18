@@ -127,9 +127,3 @@ Email: <business.drewweber@outlook.com>
 - Creative problem solver
 - Confident public speaker
 - Pro-active, independent, but also a team player
-
----
-
-
-## References
-- Available Upon Request
