@@ -19,7 +19,7 @@ Email: <business.drewweber@outlook.com>
 
 ## Training 
 
-### Certificate of Completion - Accessible Doccuments: Word, PowerPoint, & Acrobat
+### Certificate of Completion - Accessible Documents: Word, PowerPoint, & Acrobat
 - February 2022 / WebAim
 
 ### Web Accessibility Training
@@ -34,6 +34,7 @@ Email: <business.drewweber@outlook.com>
 - Analysis & submission of design recommendations for the MAO’s first-ever website refresh, which included a primary focus on accessibility & compliance with WCAG 2.1AA & Manitoba’s Accessibility Standard for Information & Communication
 - Responsible for reviewing & reporting to MAO senior staff & Executive Director on Canadian provincial webpage structures, layouts, & features to ascertain industry standards & best practices
 - Uses web technologies, such as HTML, CSS, & JavaScript to create, update, & maintain AccessibilityMB.ca & all related webpages & content, including text, resources, documents, & inclusion of YouTube content
+- Participated in a comprehensive 5-year legislative review of the Accessibility for Manitobans Act, and contributed to data collection and analysis to produce insightful findings and observations on the efficacy of the Government of Manitoba's Accessibility Office and the impact of the Accessibility for Manitobans Act on Manitoban communities. 
 - Responsible for the review, analysis, & organization of electronic departmental folders & documents created & routinely accessed by Manitoba government employees
 - Responsible for designing, creating, & featuring MAO event resources, including webinar transcripts & videos, using AdobeSuite
 - Responsible for conducting a provincial review of Manitoba accessibility experts in the private & public sectors, including post-secondary institutions such as the University of Winnipeg & Manitoba
@@ -45,8 +46,8 @@ Email: <business.drewweber@outlook.com>
 - Provides feedback to MAO senior staff & Executive Director in the creation & distribution of MAO content, offering a unique & community-informed perspective to public service work
 
 ### November 2019 - September 2021 / Code Mentor - Code Cobras
-- Created a curriculum for online computer science camps & afterschool programs.
-- Lead after school and online computer science courses teaching languages such as Scratch, JavaScript, HTML, CSS, and Python. 
+- Created a curriculum for online computer science camps & after-school programs.
+- Lead after-school and online computer science courses teaching languages such as Scratch, JavaScript, HTML, CSS, and Python. 
 - Provided lessons on basic computer science concepts such as conditionals, algorithms, iteration, and variables to various age groups.
 - Responsible for providing feedback on the learning journey & progress of participants
 - Collaborated with colleagues & reported to supervisors on the delivery of the curriculum
@@ -60,14 +61,14 @@ Email: <business.drewweber@outlook.com>
 ### May 2018 - September 2018 / Service Desk Technician - Manitoba Liquor & Lotteries
 - Responsible for providing technical & non-technical support to Manitoba Liquor & Lotteries end users & external customers by following the Incident Management process, ensuring minimal impact on the business activity of the organization & the user. 
 - Served as a single point of contact for users & user issues, received automatic alarm notifications &e responded by procedure, &d provide initial triage of service issues
-- Received, recorded, classified, routed, prioritized, resolved & closed all incoming IT related support calls, automated system alerts, service requests, & capital project requests 
+- Received, recorded, classified, routed, prioritized, resolved & closed all incoming IT-related support calls, automated system alerts, service requests, & capital project requests 
 - Owned all incidents, including monitoring, tracking & communication of all incidents, problems, & service requests through to completion
 - Assisted end users with software applications, file accesses & hardware support as required. 
-- Action & closed all Tier 1 support calls, including matching to recurring incidents, investigating, diagnosing, & resolving all incidents; recovering services/systems in a timely manner, & documenting all actions/resolutions in the support database
+- Action & closed all Tier 1 support calls, including matching to recurring incidents, investigating, diagnosing, & resolving all incidents; recovering services/systems promptly, & documenting all actions/resolutions in the support database
 - Escalated & routed Tier II or III support calls to appropriate ITS staff, based on impact, urgency & prescribed priorities & resolution times
-- Performed Start of Day & End of Day procedures on all assigned systems. 
-- Worked with external service providers to ensure that issues at all Liquor Marts are dealt with in a timely manner
-- Monitored systems & network parameters (includes network for stores)
+- Performed Start of Day & End Day procedures on all assigned systems. 
+- Worked with external service providers to ensure that issues at all Liquor Marts are dealt with promptly
+- Monitored systems & network parameters (includes a network for stores)
 - Created & modified procedures as required
 
 ---
@@ -76,15 +77,15 @@ Email: <business.drewweber@outlook.com>
 
 ### July 2019 - June 2020 / President - University Manitoba Anime Club
 - Responsible for hiring and leading the executive team.
-- Created long term strategies to ensure club growth and effectiveness.
+- Created long-term strategies to ensure club growth and effectiveness.
 - Lead administrative projects. 
-- Doubled organization membership during term to over 300 concurrent members.
+- Doubled organization membership during the term to over 300 concurrent members.
 
 ### December 2018 - July 2019 /  Events Coordinator - University of Manitoba Anime Club
 - Planned and executed various social events.
 - Reported to executive staff and delegated roles and responsibilities to events staff.
 - Responsible for managing event volunteers, including the creation of schedules & job descriptions
-- Liaised with external community organizations for event sponsorship, including the procurement of prizes, donations, & gifts in-kind for club events
+- Liaised with external community organizations for event sponsorship, including the procurement of prizes, donations, & gifts-in-kind for club events
 - Received the “Best Social Club Award” from the University of Manitoba Students’ Union
 
 ---
@@ -125,8 +126,10 @@ Email: <business.drewweber@outlook.com>
 - Organizational & time management skills
 - Creative problem solver
 - Confident public speaker
-- Pro-active, independent, but also team player
+- Pro-active, independent, but also a team player
 
 ---
 
 
+## References
+- Available Upon Request
