@@ -34,22 +34,24 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: darkblue;
-    padding: 0.5rem 0;
+    background-color: transparent; /* Change to your preferred background color */
+    padding: 1rem 0;
+    margin: 0;
 }
 
 nav ul li {
     margin: 0;
     padding: 0 1.5rem;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #fff; 
+    transition: border-color 0.3s;
 }
 
 nav ul li:first-child {
-    padding-left: 0;
+    border-left: 1px solid #fff;
 }
 
 nav ul li:last-child {
-    border-right: none;
+     border-right: 1px solid #fff;
 }
 
 nav a {
@@ -60,12 +62,15 @@ nav a {
     transition: color 0.3s, background-color 0.3s;
     outline: none;
     display: block;
+    font-weight: 500; /* Add a bit of boldness for emphasis */
 }
 
 nav a:hover {
     color: #ffffff;
-    background-color: #333333;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    border-radius: 6px; /* Slightly more rounded on hover */
 }
+
 
 /* Main Content */
 section {
