@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details - My E-Store</title>
+    <title>Shopping Cart - E-Store</title>
     <link rel="stylesheet" href="./css/stylesEstore.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Font Awesome -->
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">My E-Store</div>
+            <a href="../OnlineStore/shopIndex.html" class="logo" aria-label="Homepage">My E-Store</a>
             <nav>
                 <ul>
-
                     <li><a href="./shopIndex.html">Featured Products</a></li>
                     <li><a href="../OnlineStore/contact.html">Contact</a></li>
                     <li><a href="./cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-badge">3</span></a></li>
@@ -22,25 +21,21 @@
             <a href="../../index.html" id="return-to-landing-btn" aria-label="Return to Landing Page">Return to Landing Page</a>
         </div>
     </header>
-
     <main>
-        <section class="product-detail">
-            <h2>Product 1</h2>
-            <div class="product-info">
-                <img src="./img/product2.jpg" alt="Product 1">
-                <div class="product-details">
-                    <p class="price">$29.99</p>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut urna nunc. Vestibulum auctor ligula non orci gravida, id dictum mauris sollicitudin.</p>
-                    <button>Add to Cart</button>
-                </div>
+        <section class="cart">
+            <h1>Your Shopping Cart</h1>
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be injected here by JavaScript -->
+            </div>
+            <div class="cart-summary">
+                <p id="cart-total">Total: $0.00</p>
+                <button id="checkout-btn">Proceed to Checkout</button>
             </div>
         </section>
     </main>
-
     <footer>
-        <div class="container">
-            <p>&copy; 2024 E-store Example</p>
-        </div>
+        <p>&copy; 2024 E-store Example</p>
     </footer>
+    <script src="./js/cart.js"></script>
 </body>
 </html>
