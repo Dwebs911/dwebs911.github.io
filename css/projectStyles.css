@@ -1,16 +1,216 @@
-/* For small tablets and mobile phones */
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base font size */
+html {
+    font-size: 16px;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333333;
+    min-height: 100vh; /* Ensures footer sticks to the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: relative; /* Allows for absolute positioning of the button */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* Navigation (for Portfolio Page) */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+    display: block;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    border-radius: 6px; /* Slightly more rounded on hover */
+}
+
+/* Return to Landing Page Button (for Portfolio Page) */
+#return-to-landing-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+#return-to-landing-btn:hover {
+    background-color: #555555;
+}
+
+#return-to-landing-btn:focus {
+    outline: none;
+    background-color: #777777;
+}
+
+/* Main Content */
+main {
+    flex: 1; /* Allows the main content to take up the remaining space */
+    padding: 2rem;
+}
+
+/* Intro Section (for Landing Page) */
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333333; /* Dark gray */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555555; /* Slightly lighter gray */
+    color: #e0e0e0; /* Lighter text color on hover */
+}
+
+.btn:focus {
+    outline: none;
+    background-color: #777777; /* Even lighter gray */
+}
+
+/* Project Cards (for Portfolio Page) */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    width: 300px;
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.project-card .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333333; /* Dark gray */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-card .btn:hover {
+    background-color: #555555; /* Slightly lighter gray */
+    color: #e0e0e0; /* Lighter text color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     /* Slightly increase root font size */
     html {
         font-size: 17px;
     }
 
-    /* Adjust header padding for more breathing room */
+    /* Adjust header and footer padding */
     header, footer {
         padding: 1.5rem 1rem;
     }
 
-    /* Adjust main heading size */
+    /* Adjust font sizes */
     header h1 {
         font-size: 2.2rem;
     }
@@ -32,12 +232,21 @@
         padding: 0.5rem 1rem;
     }
 
+    #return-to-landing-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1.1rem;
+    }
+
     .project-card {
         width: 90%; /* Ensure project cards don't exceed mobile width */
         padding: 1.5rem;
     }
 
-    /* More card-specific font adjustments */
     .project-card h3 {
         font-size: 1.5rem;
     }
@@ -46,7 +255,7 @@
         font-size: 1rem;
     }
 
-    /* Adjust navigation layout to stack links */
+    /* Adjust navigation layout */
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -73,7 +282,7 @@
         padding: 2rem 1rem;
     }
 
-    /* Adjust font sizes to fit smaller screens */
+    /* Adjust font sizes */
     header h1 {
         font-size: 2.4rem;
     }
@@ -90,19 +299,21 @@
         font-size: 1.4rem;
     }
 
-    /* Scale navigation links */
     nav a {
         font-size: 1rem;
         padding: 0.6rem 1rem;
     }
 
-    /* Keep button sizes consistent */
-    .btn {
-        padding: 0.6rem 1.2rem;
-        font-size: 1.1rem;
+    #return-to-landing-btn {
+        padding: 0.8rem 1.4rem;
+        font-size: 1.2rem;
     }
 
-    /* Adjust project card width to fit screen */
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1.2rem;
+    }
+
     .project-card {
         width: 100%;
         padding: 2rem 1rem;
