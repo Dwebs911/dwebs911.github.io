@@ -192,7 +192,6 @@ nav a.focused {
     background-color: #333333;
 }
 
-/* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     /* Increase font sizes */
     body {
@@ -233,6 +232,11 @@ nav a.focused {
         text-align: center;
     }
 
+    /* Remove left border on the first nav item */
+    nav ul li:first-child {
+        border-left: none;
+    }
+
     nav ul li + li {
         border-top: 1px solid #fff;
     }
@@ -252,7 +256,7 @@ nav a.focused {
     #return-to-landing-btn {
         position: static;
         display: block;
-        margin: 0 auto 1rem; /* Centered with margin below */
+        margin: 0 auto 1rem;
         padding: 0.6rem 1rem;
         text-align: center;
     }
@@ -290,9 +294,26 @@ nav a.focused {
         font-size: 1.3rem;
     }
 
-    /* Adjust navigation padding */
+    /* Adjust navigation to vertical stack */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
     nav ul li {
         padding: 0.4rem 0;
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Remove left border on the first nav item */
+    nav ul li:first-child {
+        border-left: none;
+    }
+
+    nav ul li + li {
+        border-top: 1px solid #fff;
     }
 
     /* Adjust section padding */
