@@ -2,20 +2,16 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Basic Styling */
 html, body {
     height: 100%;
-}
-
-body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f8f8f8;
     color: #333;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -44,22 +40,18 @@ header .logo {
     text-decoration: none;
 }
 
-header .logo:focus {
-    outline: 3px solid #007bff; /* High contrast outline for focus */
-}
-
 nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    align-items: center; /* Vertically center navigation items */
+    align-items: center;
 }
 
 nav ul li {
     margin: 0 1rem;
     display: flex;
-    align-items: center; /* Align text and icon vertically */
+    align-items: center;
 }
 
 nav a {
@@ -70,7 +62,7 @@ nav a {
     transition: color 0.3s ease, border-bottom 0.3s ease;
     border-bottom: 2px solid transparent;
     display: flex;
-    align-items: center; /* Align text and icon vertically */
+    align-items: center;
 }
 
 nav a:hover, nav a:focus {
@@ -88,13 +80,13 @@ nav a:hover, nav a:focus {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
     outline: none;
-    display: inline-block; /* To fit the button-like appearance */
+    display: inline-block;
     cursor: pointer;
-    text-align: center; /* Center text inside the button */
+    text-align: center;
 }
 
 #return-to-landing-btn:hover {
@@ -103,12 +95,14 @@ nav a:hover, nav a:focus {
 
 #return-to-landing-btn:focus {
     background-color: #777777;
-    outline: 2px solid #ffffff;
 }
 
+/* Main Content */
 main {
-    flex: 1; /* Allows main to take up the available space */
-    padding: 6rem 1rem 2rem; /* Adjusted for fixed header */
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero {
@@ -126,18 +120,6 @@ main {
 .hero p {
     font-size: 1.2rem;
     color: #666;
-}
-
-.featured-products {
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-.featured-products h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 2rem;
 }
 
 .product-grid {
@@ -193,61 +175,6 @@ main {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.product-detail {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
-
-.product-info {
-    display: flex;
-    gap: 2rem;
-}
-
-.product-info img {
-    flex: 1;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.product-details {
-    flex: 2;
-}
-
-.product-details h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.product-details .price {
-    font-size: 1.8rem;
-    color: #007bff;
-    margin-bottom: 1rem;
-}
-
-.product-details .description {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-}
-
-.product-details button {
-    background: #007bff;
-    color: #fff;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.product-details button:hover, .product-details button:focus {
-    background: #0056b3;
-}
-
 footer {
     background: #ffffff;
     color: #333;
@@ -256,193 +183,84 @@ footer {
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Contact Page Styles */
-.contact {
-    background-color: #f8f8f8;
-    padding: 4rem 1rem;
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust header padding and font sizes */
+    header {
+        padding: 0.5rem 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    /* Center the Return to Landing Page button above the nav */
+    #return-to-landing-btn {
+        position: static;
+        display: block;
+        margin: 0 auto 1rem;
+        text-align: center;
+        width: auto;
+    }
+
+    /* Stack navigation items vertically */
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    /* Adjust main section padding */
+    main {
+        padding: 1rem;
+    }
+
+    /* Stack product grid vertically */
+    .product-grid {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .product {
+        width: 100%;
+    }
 }
 
-.contact .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
+@media (max-width: 480px) {
+    /* Further reduce header font sizes */
+    header h1 {
+        font-size: 1.8rem;
+    }
 
-.contact h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 1rem;
-    text-align: center;
-}
+    header p {
+        font-size: 0.9rem;
+    }
 
-.contact p {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 2rem;
-    text-align: center;
-}
+    /* Adjust padding for small screens */
+    main {
+        padding: 0.5rem;
+    }
 
-.contact-form {
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-}
+    /* Reduce button size on smaller screens */
+    #return-to-landing-btn {
+        margin-bottom: 1.5rem;
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
 
-.contact-form label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
+    /* Further stack product grid */
+    .product-grid {
+        flex-direction: column;
+    }
 
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-
-.contact-form button {
-    background: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-    display: block;
-    width: 100%;
-}
-
-.contact-form button:hover, .contact-form button:focus {
-    background: #0056b3;
-}
-
-/* Cart Page Styles */
-.cart {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.cart h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.cart-items {
-    margin-bottom: 2rem;
-}
-
-.cart-item {
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.cart-item img {
-    width: 100px;
-    height: auto;
-    border-radius: 8px;
-    margin-right: 1rem;
-}
-
-.cart-item-details {
-    flex: 1;
-}
-
-.cart-item-details h3 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.cart-item-details .price,
-.cart-item-details .total {
-    font-size: 1.1rem;
-    color: #007bff;
-}
-
-.cart-item-details .quantity {
-    font-size: 1rem;
-    color: #666;
-}
-
-.cart-summary {
-    text-align: center;
-    padding: 1rem;
-}
-
-.cart-summary p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-#checkout-btn {
-    background: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-#checkout-btn:hover, #checkout-btn:focus {
-    background: #0056b3;
-}
-
-/* Basic Styling for Cart Icon */
-nav ul li a.cart-icon {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    color: #333;
-    text-decoration: none;
-    padding: 0.5rem 0;
-    font-weight: 500;
-    position: relative; /* For positioning the item count if needed */
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    border-bottom: 2px solid transparent;
-}
-
-nav ul li a.cart-icon i {
-    margin-right: 0.5rem; /* Spacing between icon and text */
-    font-size: 1.2rem; /* Slightly larger icon */
-}
-
-nav ul li a.cart-icon:hover, nav ul li a.cart-icon:focus {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
-}
-
-.cart-badge {
-    background: #007bff;
-    color: #ffffff;
-    border-radius: 50%;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-left: 0.5rem;
-    display: inline-block;
-    position: absolute;
-    top: -0.5rem;
-    right: -0.5rem;
+    .product {
+        width: 100%;
+    }
 }
