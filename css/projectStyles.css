@@ -161,9 +161,10 @@ main {
     padding: 1.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
-    width: 100%;
-    max-width: 300px; /* Ensure project cards don't exceed mobile width */
+    width: 100%; /* Ensures card takes up 100% width in narrow screens */
+    max-width: 300px; /* Prevents the card from getting too wide */
     text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .project-card h3 {
@@ -250,8 +251,9 @@ footer {
     }
 
     .project-card {
-        width: 90%; /* Ensure project cards don't exceed mobile width */
+        width: 100%; /* Cards take full width on smaller screens */
         padding: 1.5rem;
+        max-width: 100%; /* Ensure they don’t exceed the width */
     }
 
     .project-card h3 {
@@ -324,6 +326,7 @@ footer {
     .project-card {
         width: 100%;
         padding: 2rem 1rem;
+        max-width: 100%; /* Ensure no overflow */
     }
 
     .project-card h3 {
@@ -333,14 +336,3 @@ footer {
     .project-card p {
         font-size: 1.2rem;
     }
-
-    /* Ensure content has ample padding */
-    main {
-        padding: 2rem 1rem;
-    }
-
-    /* Further stack elements for mobile */
-    .projects {
-        gap: 1rem;
-    }
-}
