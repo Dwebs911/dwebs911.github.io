@@ -4,6 +4,11 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+/* Base font size */
+html {
+    font-size: 16px;
+}
+
 /* Body */
 body {
     font-family: Arial, sans-serif;
@@ -39,7 +44,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: transparent; /* Change to your preferred background color */
+    background-color: transparent;
     padding: 1rem 0;
     margin: 0;
 }
@@ -191,4 +196,145 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 1rem;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    /* Increase root font size */
+    html {
+        font-size: 18px;
+    }
+
+    /* Adjust header and footer padding */
+    header, footer {
+        padding: 1.5rem;
+    }
+
+    /* Adjust font sizes */
+    header h1 {
+        font-size: 2.8rem;
+    }
+
+    header p {
+        font-size: 1.4rem;
+    }
+
+    .intro h2 {
+        font-size: 2.2rem;
+    }
+
+    .intro p {
+        font-size: 1.3rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    #return-to-landing-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .project-card {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .project-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .project-card p {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust main content padding */
+    main {
+        padding: 2.5rem;
+    }
+
+    /* Adjust navigation layout */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 0.5rem 0;
+    }
+
+    /* Adjust projects layout */
+    .projects {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further increase root font size */
+    html {
+        font-size: 20px;
+    }
+
+    /* Adjust header and footer padding */
+    header, footer {
+        padding: 2rem;
+    }
+
+    /* Adjust font sizes */
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 1.6rem;
+    }
+
+    .intro h2 {
+        font-size: 2.4rem;
+    }
+
+    .intro p {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.4rem;
+    }
+
+    #return-to-landing-btn {
+        padding: 0.8rem 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.4rem;
+        font-size: 1.3rem;
+    }
+
+    .project-card {
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    .project-card h3 {
+        font-size: 2rem;
+    }
+
+    .project-card p {
+        font-size: 1.4rem;
+    }
+
+    /* Adjust main content padding */
+    main {
+        padding: 3rem;
+    }
 }
