@@ -17,7 +17,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 1rem;
-    position: relative; /* Ensure position for button placement */
+    position: relative; /* This allows absolute positioning of the button */
 }
 
 header h1 {
@@ -77,7 +77,8 @@ section {
     padding: 2rem;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+                0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
 }
 
@@ -140,18 +141,18 @@ footer p {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 50px;
+    width: 50px; /* Increased size for better tap target */
     height: 50px;
     background-color: #333333;
     color: #ffffff;
     border: none;
     border-radius: 50%;
-    font-size: 28px;
+    font-size: 28px; /* Increased font size */
     cursor: pointer;
     transition: background-color 0.3s, opacity 0.3s;
     z-index: 1000;
     text-align: center;
-    line-height: 50px;
+    line-height: 50px; /* Match the height for centering */
 }
 
 #back-to-top-btn:hover {
@@ -253,6 +254,7 @@ nav a.focused {
         display: block;
         margin: 0 auto 1rem; /* Centered with margin below */
         padding: 0.6rem 1rem;
+        text-align: center;
     }
 
     /* Show Back to Top Button */
