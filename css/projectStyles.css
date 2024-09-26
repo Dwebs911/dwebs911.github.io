@@ -78,8 +78,8 @@ nav a:hover {
 
 /* Return to Landing Page Button (for Portfolio Page) */
 #return-to-landing-btn {
-    position: absolute;
-    top: 1rem; /* Adjust this value to prevent overlap */
+    position: fixed; /* Fixes the button to the top of the page */
+    top: 1rem;
     left: 1rem;
     background-color: #333333;
     color: #ffffff;
@@ -105,7 +105,7 @@ nav a:hover {
 main {
     flex: 1;
     padding: 2rem;
-    margin-top: 4rem; /* Add a margin to push the content down */
+    margin-top: 6rem; /* Increase margin to account for the fixed button */
 }
 
 /* Intro Section (for Landing Page) */
@@ -243,13 +243,13 @@ footer {
     }
 
     #return-to-landing-btn {
-        top: 2rem; /* Adjust for mobile devices */
+        top: 1.5rem; /* Adjusted for mobile screens */
         left: 0.5rem;
         padding: 0.6rem 1rem;
     }
 
     main {
-        margin-top: 5rem; /* Increase margin to ensure no overlap */
+        margin-top: 7rem; /* Increased margin to prevent overlap on mobile */
     }
 
     .btn {
@@ -321,13 +321,13 @@ footer {
     }
 
     #return-to-landing-btn {
-        top: 2.5rem;
+        top: 2rem;
         left: 0.5rem;
         padding: 0.8rem 1.4rem;
     }
 
     main {
-        margin-top: 6rem; /* Further adjust for smaller screens */
+        margin-top: 8rem; /* Further adjust for smaller screens */
     }
 
     .btn {
@@ -349,7 +349,6 @@ footer {
         font-size: 1.2rem;
     }
 
-    /* Further stack elements for mobile */
     /* Further stack elements for mobile */
     .projects {
         flex-direction: column;
