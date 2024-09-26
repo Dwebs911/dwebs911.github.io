@@ -2,6 +2,12 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Include padding and borders in element's width and height */
+}
+
+/* Ensure the entire site doesn't overflow */
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* Base font size */
@@ -155,7 +161,8 @@ main {
     padding: 1.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px; /* Ensure project cards don't exceed mobile width */
     text-align: center;
 }
 
