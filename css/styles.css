@@ -52,7 +52,7 @@ nav ul li:first-child {
 }
 
 nav ul li:last-child {
-    border-right: 1px solid #fff;
+    border-right: none;
 }
 
 nav a {
@@ -77,8 +77,7 @@ section {
     padding: 2rem;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
-                0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
 }
 
@@ -141,18 +140,18 @@ footer p {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 50px; /* Increased size for better tap target */
+    width: 50px;
     height: 50px;
     background-color: #333333;
     color: #ffffff;
     border: none;
     border-radius: 50%;
-    font-size: 28px; /* Increased font size */
+    font-size: 28px;
     cursor: pointer;
     transition: background-color 0.3s, opacity 0.3s;
     z-index: 1000;
     text-align: center;
-    line-height: 50px; /* Match the height for centering */
+    line-height: 50px;
 }
 
 #back-to-top-btn:hover {
@@ -248,11 +247,11 @@ nav a.focused {
         padding: 0.8rem;
     }
 
-    /* Adjust Return to Landing Page Button */
+    /* Center Return to Landing Page Button */
     #return-to-landing-btn {
-        top: auto;
-        bottom: 1rem;
-        left: 1rem;
+        position: static;
+        display: block;
+        margin: 0 auto 1rem; /* Centered with margin below */
         padding: 0.6rem 1rem;
     }
 
@@ -300,8 +299,9 @@ nav a.focused {
         margin-bottom: 1rem;
     }
 
-    /* Adjust Return to Landing Page Button */
+    /* Center Return to Landing Page Button */
     #return-to-landing-btn {
+        margin-bottom: 1.5rem;
         padding: 0.7rem 1.2rem;
         font-size: 1rem;
     }
