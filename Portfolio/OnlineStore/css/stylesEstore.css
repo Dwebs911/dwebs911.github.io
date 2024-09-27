@@ -190,6 +190,7 @@ footer {
     width: 100%; /* Ensure footer stretches full width */
     margin-top: auto; /* Pushes footer to the bottom if content is short */
 }
+
 /* Contact Page Styles */
 .contact {
     background-color: #f8f8f8;
@@ -232,12 +233,13 @@ footer {
 }
 
 .contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    width: 100%; /* Full width of the container */
+    padding: 0.5rem; /* Consistent padding on all sides */
+    border: 1px solid #ddd; /* Consistent border size */
     border-radius: 4px;
-    margin-bottom: 1rem;
     font-size: 1rem;
+    margin-bottom: 1rem; /* Add space between form elements */
 }
 
 .contact-form button {
@@ -382,6 +384,95 @@ nav ul li a.cart-icon:hover, nav ul li a.cart-icon:focus {
     right: -0.5rem;
 }
 
+/* Product Details Section */
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product-info img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-details p.price {
+    font-size: 1.8rem;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.product-details p.description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.product-details button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-details button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design for Product Details */
+@media (max-width: 768px) {
+    .product-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-info img {
+        max-width: 100%;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
 /* Responsive Design for Mobile (max-width: 768px) */
 @media (max-width: 768px) {
     header .container {
@@ -413,6 +504,25 @@ nav ul li a.cart-icon:hover, nav ul li a.cart-icon:focus {
         font-size: 1.5rem;
         margin-bottom: 1rem; /* Space between logo and nav */
     }
+
+    .contact {
+        padding: 2rem 1rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem 1rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 0.5rem; /* Adjusted padding for mobile */
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
+    
 }
 
     /* Responsive Design for Small Mobile (max-width: 480px) */
@@ -443,5 +553,22 @@ nav ul li a.cart-icon:hover, nav ul li a.cart-icon:focus {
 
     nav a {
         font-size: 0.9rem; /* Reduce font size for navigation links */
+    }
+    .contact {
+        padding: 2rem 1rem;
+    }
+
+    .contact-form {
+        padding: 1rem 1rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 0.5rem; /* Padding for small screens, ensure it applies equally on all sides */
+        font-size: 0.85rem;
+    }
+
+    .contact-form button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
     }
 }
