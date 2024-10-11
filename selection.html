@@ -4,70 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drew Weber - Portfolio</title>
-    <link rel="stylesheet" href="./css/projectStyles.css">
-    <script defer src="./js/script.js"></script> <!-- Link to JavaScript file if needed -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script> <!-- Optional animations -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <a href="index.html" id="return-to-landing-btn" class="btn" aria-label="Return to Landing Page">Return to Landing Page</a>
-        <br>
-        <h1>Drew Weber's Portfolio</h1>
-        <p>Explore my projects and see my work in action</p>
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-gray-900 text-white text-center py-8 relative">
+        <a href="index.html" id="return-to-landing-btn" class="absolute top-4 left-4 bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Return to Landing Page</a>
+        <h1 class="text-4xl font-bold">Drew Weber's Portfolio</h1>
+        <p class="mt-2 text-lg">Explore my projects and see my work in action</p>
     </header>
-    <main>
-        <section class="intro">
-            <h2>My Example Projects</h2>
-            <p>Here are some of my example projects I've worked on. Click on a project to learn more about it.</p>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8 flex-1">
+        <!-- Intro Section -->
+        <section class="text-center mb-8">
+            <h2 class="text-3xl font-bold mb-4">My Example Projects</h2>
+            <p class="text-lg">Here are some of my example projects I've worked on. Click on a project to learn more about it.</p>
         </section>
-        <section class="projects">
-            <div class="project-card">
-                <h3>E-commerce Store - Work In Progress</h3>
-                <p>The Simple E-Commerce Store is a user-friendly website designed to showcase and sell a limited range of products online. It aims to provide a straightforward shopping experience.</p>
-                <a href="./Portfolio/OnlineStore/shopIndex.html" class="btn">View Project</a>
+
+        <!-- Projects Section -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">E-commerce Store - Work In Progress</h3>
+                <p class="text-lg mb-4">The Simple E-Commerce Store is a user-friendly website designed to showcase and sell a limited range of products online. It aims to provide a straightforward shopping experience.</p>
+                <a href="./Portfolio/OnlineStore/shopIndex.html" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">View Project</a>
             </div>
-            <div class="project-card">
-                <h3>Project 2  -  In Design Stage</h3>
-                <p>Think of it as a cross between a technological marvel and a magic trick—minus the smoke and mirrors.</p>
-                <a href="./selection.html" class="btn">View Project</a>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Project 2 - In Design Stage</h3>
+                <p class="text-lg mb-4">Think of it as a cross between a technological marvel and a magic trick—minus the smoke and mirrors.</p>
+                <a href="./selection.html" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">View Project</a>
             </div>
-            <div class="project-card">
-                <h3>Project 3  - Conducting Feasability Outreach - Design/Development TBA</h3>
-                <p>Stay tuned as we continue to turn our wildest ideas into reality and bring a touch of the extraordinary into your everyday.</p>
-                <a href="./selection.html" class="btn">View Project</a>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Project 3 - Feasibility Outreach</h3>
+                <p class="text-lg mb-4">Stay tuned as we continue to turn our wildest ideas into reality and bring a touch of the extraordinary into your everyday.</p>
+                <a href="./selection.html" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">View Project</a>
             </div>
         </section>
-        <br>
-        <hr>
-        <br>
-        <section class="intro">
-            <h2>Websites I've Worked On</h2>
-            <p>Here are some public facing websites I have contributed to during different positions:</p>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Manitoba Accessibility Office</h3>
-                    <a href="https://accessibilitymb.ca/" target="_blank" class="btn">Visit Website</a>
-                </div>
-                <div class="project-card">
-                    <h3>Government of Manitoba - Housing, Addictions, and Homelessness</h3>
-                    <a href="https://www.gov.mb.ca/hah/" target="_blank" class="btn">Visit Website</a>
-                </div>
-                <div class="project-card">
-                    <h3>Government of Manitoba - Mental Health, and Community Wellness</h3>
-                    <a href="https://www.gov.mb.ca/mhcw/" target="_blank" class="btn">Visit Website</a>
-                </div>
-                <div class="project-card">
-                    <h3>Bridgwater Neighbourhoods</h3>
-                    <a href="https://bridgwaterneighbourhoods.com/" target="_blank" class="btn">Visit Website</a>
-                </div>
-                <div class="project-card">
-                    <h3>Manitoba Housing</h3>
-                    <a href="https://www.gov.mb.ca/housing/" target="_blank" class="btn">Visit Website</a>
-                </div>
+
+        <hr class="my-8">
+
+        <!-- Second Intro Section -->
+        <section class="text-center mb-8">
+            <h2 class="text-3xl font-bold mb-4">Websites I've Worked On</h2>
+            <p class="text-lg">Here are some public-facing websites I have contributed to during different positions:</p>
+        </section>
+
+        <!-- Worked On Websites -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Manitoba Accessibility Office</h3>
+                <a href="https://accessibilitymb.ca/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Visit Website</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Government of Manitoba - Housing, Addictions, and Homelessness</h3>
+                <a href="https://www.gov.mb.ca/hah/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Visit Website</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Government of Manitoba - Mental Health, and Community Wellness</h3>
+                <a href="https://www.gov.mb.ca/mhcw/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Visit Website</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Bridgwater Neighbourhoods</h3>
+                <a href="https://bridgwaterneighbourhoods.com/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Visit Website</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+                <h3 class="text-2xl font-semibold mb-4">Manitoba Housing</h3>
+                <a href="https://www.gov.mb.ca/housing/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600">Visit Website</a>
             </div>
         </section>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-4">
         <p>&copy; 2024 Drew Weber</p>
     </footer>
+
+    <script>
+        // Optionally add JavaScript functionality here if needed
+    </script>
 </body>
 </html>
